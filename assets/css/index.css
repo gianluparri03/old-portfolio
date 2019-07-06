@@ -1,0 +1,28 @@
+main {
+	font-family: 'Literata', serif;
+	margin-top: 17vh;
+}
+
+#avatar {
+	height: 25vh;
+	border: 2px solid #d1d5da;
+	border-radius: 130px;
+}
+
+#username {
+	margin: 0;
+	color: #586069;
+	font-weight: 600;
+	font-style: italic;
+}
+
+#name {
+	margin-top: 0;
+	margin-bottom: 5vh;
+	color: #24292e;
+}
+
+#description {
+	color: #586069;
+	font-family: 'Lato', sans-serif;
+}
