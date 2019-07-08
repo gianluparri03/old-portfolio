@@ -1,6 +1,6 @@
 main {
+	text-align: center;
 	font-family: 'Literata', serif;
-	margin-top: 17vh;
 }
 
 #avatar {
@@ -17,9 +17,8 @@ main {
 }
 
 #name {
-	margin-top: 0;
+	margin-top: 0px;
 	margin-bottom: 5vh;
-	color: #24292e;
 }
 
 #description {

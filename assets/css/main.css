@@ -1,7 +1,16 @@
 body {
 	height: 100%;
 	background-color: #fafbfc;
+}
+
+main {
+	margin-top: 18vh;
+}
+
+.title {
+	font-family: 'Literata', serif;
 	text-align: center;
+	color: #24292e;
 }
 
 
@@ -31,7 +40,7 @@ header {
 	width: 5vh;
 }
 
-.menu-section {
+.menu-tab {
 	float: left;
 	height: 100%;
 	padding-left: 2.5vw;
@@ -42,7 +51,7 @@ header {
 	color: #24292e; 
 }
 
-.menu-section:hover {
+.menu-tab:hover {
 	background-color: #d1d5da;
 	color: white;
 }
@@ -60,7 +69,13 @@ footer {
 	padding-top: 1vh;
 	border-top: 1px solid #d1d5da;
 
-	font-family: 'Lato', sans-serif;
 	background-color: white;
+
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+footer a{ 
+	text-decoration: none;
 	color: #24292e;
 }
