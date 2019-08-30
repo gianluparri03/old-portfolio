@@ -10,7 +10,7 @@ main a {
 	text-decoration: none;
 }
 
-.contacts {
+.content {
 	height: 50vh;
 
 	display: flex;
@@ -25,9 +25,10 @@ main a {
 
 	margin-left: 2vw;
 	margin-right: 3vw;
+	margin-bottom: 3vh;
 }
 
-.section h3 {
+.section-title {
 	margin-bottom: 1vh;
 
 	font-family: 'Literata', serif;
@@ -51,9 +52,8 @@ main a {
 	color: #d1d5da;
 }
 
-#email:hover * { color: #24292e; }
+
+#email:hover * { color: #4caf50; }
 #telegram:hover * { color: #0088cc; }
 #github:hover * { color: #333; }
-#instagram:hover * { color: #e1306c; }
-#twitter:hover * { color: #1da1f2; }
 #reddit:hover * { color: #ff4500; }
