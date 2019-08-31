@@ -1,8 +1,8 @@
 main {
+	justify-content: center;
+
 	font-family: 'Lato', sans-serif;
 	text-align: left;
-
-	justify-content: center;
 }
 
 main a {
