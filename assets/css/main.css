@@ -11,6 +11,9 @@ main {
 	font-family: 'Literata', serif;
 	text-align: center;
 	color: #24292e;
+
+	margin-top: 3vh;
+	margin-bottom: 5vh;
 }
 
 
@@ -37,7 +40,7 @@ header {
 	float: left;
 	padding-left: 1vw;
 	padding-right: 1vw;
-	width: 5vh;
+	height: 4vh;
 }
 
 .menu-tab {

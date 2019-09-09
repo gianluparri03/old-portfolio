@@ -1,0 +1,43 @@
+main {
+	justify-content: center;
+
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+}
+
+main a {
+	color: #586069;
+	text-decoration: none;
+}
+
+.content {
+	width: 85%;
+
+	margin-right: auto;
+	margin-left: auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.section {
+	width: auto;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	margin-left: 2vw;
+	margin-right: 3vw;
+	margin-bottom: 3vh;
+}
+
+.section-title {
+	margin-bottom: 1vh;
+
+	font-family: 'Literata', serif;
+	color: #586069;
+}
