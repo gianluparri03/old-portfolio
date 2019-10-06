@@ -1,10 +1,15 @@
 body {
 	height: 100%;
 	background-color: #fafbfc;
+
+	margin: 0px;
 }
 
+
+/* MAIN */
+
 main {
-	margin-top: 13vh;
+	margin-top: 8vh;
 }
 
 .title {
@@ -17,18 +22,15 @@ main {
 }
 
 
-/* HEADER */
+/* MENU */
 
-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 8vh;
-	width: 100%;
+menu {
+	margin-top: 0px;
+	margin-bottom: 0px;
 
-	display: flex;
-	align-items: center;
+	height: 11vh;
+
+	padding-left: 0px;
 
 	background-color: white;
 	border-bottom: 1px solid #d1d5da;
@@ -36,14 +38,11 @@ header {
 	font-family: 'Lato', sans-serif;
 }
 
-#home {
-	float: left;
-	padding-left: 1vw;
-	padding-right: 1vw;
-	height: 4vh;
-}
-
 .menu-tab {
+	box-sizing: border-box;
+	padding-top: 5px;
+	border-bottom: 5px solid white;
+
 	float: left;
 	height: 100%;
 	padding-left: 2.5vw;
@@ -54,9 +53,13 @@ header {
 	color: #24292e; 
 }
 
+.menu-tab span {
+	margin-right: 1vw;
+}
+
 .menu-tab:hover {
-	background-color: #d1d5da;
-	color: white;
+	border-bottom: 5px solid #d1d5da;
+	font-weight: bold;
 }
 
 
