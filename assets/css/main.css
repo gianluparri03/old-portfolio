@@ -25,17 +25,25 @@ main {
 /* MENU */
 
 menu {
+	height: 11vh;
+
 	margin-top: 0px;
 	margin-bottom: 0px;
 
-	height: 11vh;
-
 	padding-left: 0px;
+
+	display: flex;
 
 	background-color: white;
 	border-bottom: 1px solid #d1d5da;
 
 	font-family: 'Lato', sans-serif;
+}
+
+@media (orientation: portrait) {
+	menu {
+		justify-content: center;
+	}
 }
 
 .menu-tab {
