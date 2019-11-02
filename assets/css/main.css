@@ -1,12 +1,11 @@
 body {
 	height: 100%;
-	background-color: #fafbfc;
 
 	margin: 0px;
+
+	font-family: 'Lato', sans-serif;
+	background-color: #fafbfc;
 }
-
-
-/* MAIN */
 
 main {
 	width: 100%;
@@ -23,9 +22,6 @@ main {
 	margin-top: 3vh;
 	margin-bottom: 5vh;
 }
-
-
-/* MENU */
 
 menu {
 	position: fixed;
@@ -45,8 +41,6 @@ menu {
 
 	background-color: white;
 	border-bottom: 1px solid #d1d5da;
-
-	font-family: 'Lato', sans-serif;
 }
 
 @media (orientation: portrait) {
@@ -56,16 +50,19 @@ menu {
 }
 
 .menu-tab {
+	height: 100%;
+
 	box-sizing: border-box;
+
+	padding-left: 2.5vw;
 	padding-top: 5px;
 	border-bottom: 5px solid white;
-
-	float: left;
-	height: 100%;
-	padding-left: 2.5vw;
 	padding-right: 2.5vw;
+
 	display: flex;
+	float: left;
 	align-items: center;
+
 	text-decoration: none;
 	color: #24292e; 
 }
@@ -93,8 +90,7 @@ footer {
 	border-top: 1px solid #d1d5da;
 
 	background-color: white;
-
-	font-family: 'Lato', sans-serif;
+	
 	text-align: center;
 }
 

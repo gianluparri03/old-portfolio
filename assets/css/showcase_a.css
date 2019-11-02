@@ -1,0 +1,10 @@
+.section { width: 35vw; }
+
+.section-content { max-width: 50%; }
+
+.section img {
+	height: 15vh;
+	width: auto;
+
+	margin-right: 30px;
+}

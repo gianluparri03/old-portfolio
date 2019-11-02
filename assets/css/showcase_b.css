@@ -1,0 +1,16 @@
+.section { width: 20%; }
+.large { width: 30%; }
+
+.section-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.section span {
+	margin-right: 1vw;
+	margin-left: 1vw;
+
+	font-size: 4em;
+	color: #d1d5da;
+}
