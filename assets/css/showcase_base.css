@@ -79,7 +79,8 @@ main a {
 	font-size: 0.5em;
 }
 
-.featured { border-color: #4caf50; color: #4CAF50; }
+.featured { border-color: #4caf50; color: #4CAF50 !important; }
+.wip { border-color: #9e14c6; color: #9e14c6 !important; }
 
 .email:hover * { color: #4caf50; }
 .telegram:hover * { color: #0088cc; }

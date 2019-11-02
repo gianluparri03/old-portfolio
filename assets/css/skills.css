@@ -1,0 +1,21 @@
+.section {
+	width: 25vw;
+	margin-bottom: 10vh;
+	margin-right: 1.5vw;
+	margin-left: 1.5vw;
+}
+
+#python:hover .section-title { color: #FFD43B; }
+#flask:hover .section-title { color: black; }
+#go:hover .section-title { color: #00ADD8; }
+#web:hover .section-title { color: #e34f26; }
+#js:hover .section-title { color: #F0DB4F; }
+#sql:hover .section-title { color: #F29111; }
+
+.empty-star { color: #586069; }
+.python-star { color: #FFD43B; }
+.flask-star { color: black; }
+.go-star { color: #00ADD8; }
+.web-star { color: #e34f26; }
+.js-star { color: #F0DB4F; }
+.sql-star { color: #F29111; }
