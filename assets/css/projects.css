@@ -1,8 +1,12 @@
+.section { width: 35vw; }
+
+.section-content { max-width: 50%; }
+
 .section img {
 	height: 15vh;
 	width: auto;
 
-	margin-right: 4vw;
+	margin-right: 30px;
 }
 
 .section-title {
@@ -10,9 +14,7 @@
 	align-items: center;
 }
 
-.section-content {
-	width: 25vw;
-
+.section-description {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -21,6 +23,9 @@
 	text-decoration: none;
 	text-align: justify;
 }
+
+.section-description a { font-style: italic; }
+.section-description a:hover { color: #f74965; }
 
 .section-links {
 	padding-left: 0;
@@ -48,11 +53,10 @@
 .featured { border-color: #4caf50; color: #4CAF50; }
 
 #ruffini:hover .section-title { color: #0E6AC7; }
-#pycards:hover .section-title { color: #FFD43B; }
 #banklog:hover .section-title { color: #4CAF50; }
 #monolix:hover .section-title { color: #363636; }
 
 .github:hover * { color: #333; }
 .rtd:hover * { color: #2980B9; }
 .pypi:hover * { color: #FFD43B; }
-.telegram:hover * { color: #0088cc; }
+.portfolio:hover * { color: #f74965; }

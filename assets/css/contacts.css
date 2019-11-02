@@ -1,12 +1,15 @@
 .content {
-	margin-top: 15vh;
+	margin-top: 7vh;
 	width: 80%;
 }
 
 .section {
+	width: 20%;
 	margin-left: 3vw;
-	margin-right: 5vw;
+	margin-right: 3vw;
 }
+
+.large { width: 30%; }
 
 .section-content {
 	display: flex;

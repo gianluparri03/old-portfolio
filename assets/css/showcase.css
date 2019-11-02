@@ -20,7 +20,18 @@ main a {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-content: center;
+}
+
+@media (orientation: landscape) {
+	.content {
+		align-content: center;
+	}
+}
+
+@media (orientation: portrait) {
+	.content {
+		flex-direction: column;
+	}
 }
 
 .section {

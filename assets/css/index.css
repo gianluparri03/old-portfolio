@@ -1,12 +1,13 @@
 main {
-	margin-top: 15vh;
-
 	text-align: center;
 	font-family: 'Literata', serif;
 }
 
 #avatar {
 	height: 25vh;
+
+	margin-top: 5vh;
+
 	border: 2px solid #d1d5da;
 	border-radius: 130px;
 }
@@ -19,11 +20,6 @@ main {
 }
 
 #name {
-	margin-top: 0px;
-	margin-bottom: 5vh;
-}
-
-#description {
-	color: #586069;
-	font-family: 'Lato', sans-serif;
+	margin-top: 2vh;
+	margin-bottom: 0;
 }
