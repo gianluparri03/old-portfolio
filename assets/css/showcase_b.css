@@ -1,5 +1,7 @@
 .section { width: 20%; }
 .large { width: 30%; }
+.double { display: flex; flex-direction: column; }
+.double a { margin-bottom: 0.2vh; margin-top: 0.2vh; }
 
 .section-content {
 	display: flex;
