@@ -19,3 +19,5 @@
 .web-star { color: #e34f26; }
 .js-star { color: #F0DB4F; }
 .sql-star { color: #F29111; }
+
+.stars { display: flex; }
